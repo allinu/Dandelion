@@ -5,6 +5,8 @@
 - 希望有人能够及时指出题目中的不足，帮助我更好的成长，谢谢
 
 
+- tmp 为开发时测试挂载的目录
+  - `docker run -it --name test -v [..../Danderlion/tmp/app]:/app -p 80:80 -p 3306:3306 -e MYSQL_PASS="root" tutum/lamp`
 - 01  JS相关的签到题目
 - 02  Mysql的简单注入题目
 
