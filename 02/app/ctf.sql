@@ -1,3 +1,6 @@
+create database ctf;
+use ctf;
+
 create table answer
 (
     id      int          not null,

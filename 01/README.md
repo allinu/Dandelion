@@ -10,7 +10,18 @@
 
 `将出现的内容复制到浏览器的控制台，运行，就会出现答案 Ihatejs`
 
-####  答案
+#### 使用方法
 
-danderlion{JS_Is_s0_......}
+```shell
+
+docker build -t [image_name] .
+
+docker run -d --name [container_name] -p [port]:80 -e MYSQL_PASS="root" [image_name]
+
+```
+
+
+#### 答案
+
+`danderlion{JS_Is_s0_......}`
 
