@@ -6,7 +6,20 @@
 
 
 - tmp 为开发时测试挂载的目录
-  - `docker run -d --name test -v [..../Danderlion/tmp/app]:/app -p 80:80 -p 3306:3306 -e MYSQL_PASS="root" tutum/lamp`
+  `docker run -d --name test -v [..../Danderlion/tmp/app]:/app -p 80:80 -p 3306:3306 -e MYSQL_PASS="root" tutum/lamp`
+- 添加代码高亮JS(rainbow.js)
+  ```html
+    <pre>
+      <code data-language="python">
+        def openFile(path):
+        file = open(path, "r")
+        content = file.read()
+        file.close()
+        return content
+      </code>
+    </pre>
+  ```
+
 - 01  JS相关的签到题目
 - 02  Mysql的简单注入题目
 - 03  文件包含
