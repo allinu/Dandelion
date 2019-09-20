@@ -32,7 +32,11 @@
             }else {
               echo 'Wrong.';
             }
+          } else {
+            echo "Wrong.";
           }
+        } else {
+          echo "Wrong. ";
         }
       ?>
     </div>
