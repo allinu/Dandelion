@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> [TEST] </title>
+    <title> [Danderlion] </title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/rainbow.css">
