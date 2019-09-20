@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: "chao";
+  src: url("../fonts/chao.ttf");
+}
+
+.chao {
+  font-family: "chao";
+}
+
+body{
+  background: #20e6d0;
+  color: #20e6d0;
+}
+
+#out{
+  margin-top: 200px;
+}
+
+#ctf_key_m{
+  font-size: 30px;
+} 
+
+#ctf_key_u{
+  margin-top: 200px;
+  font-size: 30px;
+} 
+
+#ctf_key_d{
+  font-size: 30px;
+} 
